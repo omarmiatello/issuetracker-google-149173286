@@ -27,3 +27,13 @@ opt 2 - Steps to Reproduce:
 What's happen?
 - Android Studio shows the message: "Cannot access class 'com.example.issue.databinding.LayoutTextBinding'. Check your module classpath for missing or conflicting dependencies"
 - The project compiles and runs correctly.
+
+![img](/Screen Shot 2020-02-10 at 11.35.30 AM.png)
+
+![img](/Screen Shot 2020-02-10 at 11.35.47 AM.png)
+
+![img](/Screen Shot 2020-02-10 at 11.37.28 AM.png)
+
+![img](/Screen Shot 2020-02-10 at 11.37.54 AM.png)
+
+![img](/Screen Shot 2020-02-10 at 12.00.20 PM.png)
