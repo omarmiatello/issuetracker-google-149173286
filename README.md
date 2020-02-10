@@ -21,19 +21,14 @@ opt 2 - Steps to Reproduce:
 2. Create a new module, android library (ex: `ui-lib`)
 3. Enable viewbinding (or databinding) in both: `app`, `ui-lib` --- docs: https://developer.android.com/topic/libraries/view-binding
 4. Create a layout in `ui-lib` module (ex: `layout_text.xml`)
+![](/Screen%20Shot%202020-02-10%20at%2011.35.30%20AM.png)
 5. Include that layout in the `activity_main.xml` (in the module `app`)
+![](/Screen%20Shot%202020-02-10%20at%2011.35.47%20AM.png)
 6. Try to use the ViewBinding generated class from the `MainActivity`
+![](/Screen%20Shot%202020-02-10%20at%2011.37.28%20AM.png)
+![](/Screen%20Shot%202020-02-10%20at%2011.37.54%20AM.png)
 
 What's happen?
 - Android Studio shows the message: "Cannot access class 'com.example.issue.databinding.LayoutTextBinding'. Check your module classpath for missing or conflicting dependencies"
 - The project compiles and runs correctly.
-
-![img](/Screen Shot 2020-02-10 at 11.35.30 AM.png)
-
-![img](/Screen Shot 2020-02-10 at 11.35.47 AM.png)
-
-![img](/Screen Shot 2020-02-10 at 11.37.28 AM.png)
-
-![img](/Screen Shot 2020-02-10 at 11.37.54 AM.png)
-
-![img](/Screen Shot 2020-02-10 at 12.00.20 PM.png)
+![](/Screen%20Shot%202020-02-10%20at%2012.00.20%20PM.png)
